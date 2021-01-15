@@ -55,4 +55,5 @@ Se procura abarcar la mayor cantidad de necesidades de los padres:
 - https://www.chicco.com.mx/
 - https://mx.patpat.com/
 
-Se recomienda abrir el mockup como prototipo funcional en adobe Xd, cada uno de las paginas tiene vinculadas las paginas a las que deberia llever al hacer click.	:wink:	:wink:
+
+La carpeta wireframe se encuentra en la carpeta "anexos" en esta carpeta encontrarás en formato PNG y PDF las vistas del proyecto(wireframes). Aunque existe un modelo funcional(prototipo) desarrollado en adobe xd, en este básta con abrir el link y ejecutar directamente en el navegador el wireframe del proyecto.   :wink:	:wink:
