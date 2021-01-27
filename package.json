@@ -16,11 +16,12 @@
     "url": "https://github.com/DavGil-Design/grupo_1_babyfashion/issues"
   },
   "homepage": "https://github.com/DavGil-Design/grupo_1_babyfashion#readme",
-  "description": "",
+  "description": "Proyecto integrador DH - Market place",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "keywords": []
 }
