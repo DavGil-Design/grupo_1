@@ -1,86 +1,110 @@
 /*General styles*/
 
 :root {    
-    /*------*/
-    /*Colors*/
-    /*------*/
-    --c-primary:              #36767a;
-    --c-primary-var1:         #07565b;
-    --c-primary-var2:         #65a4ab;
-    --c-secondary:            #003a45;
-    --c-tertiary:             #ed3c10;
-    --c-color1:               #c2dde4;
-    --c-color2:               #888;
-    --c-color2:               #666;
-    --c-color2:               #444;
-    --c-color2:               #222;
-    --c-color3:               transparent;
-    --c-color4:               #000;
-    --c-color6:               #fff;
+  /*------*/
+  /*Colors*/
+  /*------*/
+  --c-primary:              #36767a;
+  --c-primary-var1:         #07565b;
+  --c-primary-var2:         #65a4ab;
+  --c-secondary:            #003a45;
+  --c-tertiary:             #ed3c10;
+  --c-color1:               #c2dde4;
+  --c-color2:               #888;
+  --c-color2:               #666;
+  --c-color2:               #444;
+  --c-color2:               #222;
+  --c-color3:               transparent;
+  --c-color4:               #000;
+  --c-color6:               #fff;
 
-    /*alerts*/
-    --c-info:                 var(--c-primary);
-    --c-warning:              #f9a91f;   /*yellow*/
-    --c-error:                #C00009;   /*red*/
-    --c-success:              #86bc32;   /*green*/
+  /*alerts*/
+  --c-info:                 var(--c-primary);
+  --c-warning:              #f9a91f;   /*yellow*/
+  --c-error:                #C00009;   /*red*/
+  --c-success:              #86bc32;   /*green*/
 
-    /*----------*/
-    /*typographi*/
-    /*----------*/
-    --f-primary:              Theboldfont, sans-serif;
-    --f-secondary-regualr:    SegoeUI-regular, sans-serif;
-    --f-secondary-semiBold:   SegoeUI-semibold, sans-serif;
-    --f-secondary-bold:       SegoeUI-bold, sans-serif;
-    --f-secondary-italic:     SegoeUI-italic, sans-serif;
-    --c-text:                 var(--c-secondary);
+  /*----------*/
+  /*typographi*/
+  /*----------*/
+  --f-primary:              Theboldfont, sans-serif;
+  --f-secondary-regualr:    SegoeUI-regular, sans-serif;
+  --f-secondary-semiBold:   SegoeUI-semibold, sans-serif;
+  --f-secondary-bold:       SegoeUI-bold, sans-serif;
+  --f-secondary-italic:     SegoeUI-italic, sans-serif;
+  --c-text:                 var(--c-secondary);
 
 
-    /*---------*/
-    /*Font-size*/
-    /*---------*/
-    --f-size-xxs:             10px;
-    --f-size-xs:              12px;
-    --f-size-sm:              14px;
-    --f-size:                 16px;
-    --f-size-md-xxl:          18px;
-    --f-size-md-xl:           20px;
-    --f-size-md:              24px;
-    --f-size-lg:              28px;
-    --f-size-xlg:             34px;
-    --f-size-xlgx:            40px;
-    --f-size-xxlg:            48px;
-    --f-size-super:           60px;
-    --f-size-ultra:           74px;
+  /*---------*/
+  /*Font-size*/
+  /*---------*/
+  --f-size-xxs:             10px;
+  --f-size-xs:              12px;
+  --f-size-sm:              14px;
+  --f-size:                 16px;
+  --f-size-md-xxl:          18px;
+  --f-size-md-xl:           20px;
+  --f-size-md:              24px;
+  --f-size-lg:              28px;
+  --f-size-xlg:             34px;
+  --f-size-xlgx:            40px;
+  --f-size-xxlg:            48px;
+  --f-size-super:           60px;
+  --f-size-ultra:           74px;
 
-    /*icon-size*/
-    --f-iconsize-sm:          10px;
-    --f-iconsize:             20px;
-    --f-iconsize-md:          36px;
-    --f-iconsize-lg:          48px;
-    --f-iconsize-xlg:         60px;
-    --f-iconsize-super:       70px;
+  /*icon-size*/
+  --f-iconsize-sm:          10px;
+  --f-iconsize:             20px;
+  --f-iconsize-md:          36px;
+  --f-iconsize-lg:          48px;
+  --f-iconsize-xlg:         60px;
+  --f-iconsize-super:       70px;
 
-    /*---------------------------*/
-    /*standar-margin&padding-size*/
-    /*---------------------------*/
-    /*----------Margin-----------*/
-    --m-size-xxs:             10px;
-    --m-size-xs:              12px;
-    --m-size-sm:              14px;
-    --m-size-md:              24px;
-    --m-size-lg:              28px;
-    --m-size-xlg:             34px;
-    --m-size-xlgx:            40px;
-    --m-size-xxlg:            48px;
+  /*---------------------------*/
+  /*standar-margin&padding-size*/
+  /*---------------------------*/
+  /*----------Margin-----------*/
+  --m-size-xxs:             10px;
+  --m-size-xs:              12px;
+  --m-size-sm:              14px;
+  --m-size-md:              24px;
+  --m-size-lg:              28px;
+  --m-size-xlg:             34px;
+  --m-size-xlgx:            40px;
+  --m-size-xxlg:            48px;
 
     
-    /*----------Padding----------*/
-    --p-size-xxs:             10px;
-    --p-size-xs:              12px;
-    --p-size-sm:              14px;
-    --p-size-md:              24px;
-    --p-size-lg:              28px;
-    --p-size-xlg:             34px;
-    --p-size-xlgx:            40px;
-    --p-size-xxlg:            48px;
-  }
+  /*----------Padding----------*/
+  --p-size-xxs:             10px;
+  --p-size-xs:              12px;
+  --p-size-sm:              14px;
+  --p-size-md:              24px;
+  --p-size-lg:              28px;
+  --p-size-xlg:             34px;
+  --p-size-xlgx:            40px;
+  --p-size-xxlg:            48px;
+}
+
+html {
+  background-color: var(--c-color1);
+  color: var(--c-text);
+  font-size: var(--f-size);
+}
+body {  
+  color: var(--c-text);
+  font-family: var(--f-secondary-regualr);
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+h1 {
+  font-family: var(--f-primary);
+}
+ul, li, a{
+  color: var(--c-text);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
