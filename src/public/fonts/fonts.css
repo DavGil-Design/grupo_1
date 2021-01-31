@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Theboldfont;
+    src: url(/static/fonts/Theboldfont) format("truetype");
+}
+@font-face {
+    font-family: SegoeUI-regular;
+    src: url(/static/fonts/SegoeUI-regular) format("truetype");
+}
+@font-face {
+    font-family: SegoeUI-semibold;
+    src: url(/static/fonts/SegoeUI-semibold) format("truetype");
+}
+@font-face {
+    font-family: SegoeUI-bold;
+    src: url(/static/fonts/SegoeUI-bold) format("truetype");
+}
+@font-face {
+    font-family: SegoeUI-italic;
+    src: url(/static/fonts/SegoeUI-italic) format("truetype");
+}

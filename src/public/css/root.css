@@ -1,0 +1,76 @@
+/*General styles*/
+
+:root {    
+    /*------*/
+    /*Colors*/
+    /*------*/
+    --c-primary:            #EAC926;
+    --c-primary-var1:       #1259C3;
+    --c-secondary:          #666;
+    --c-tertiary:           #666;
+    --c-color1:             #666;
+    --c-color2:             #666;
+
+    /*alerts*/
+    --c-info:                 var(--c-primary);
+    --c-warning:            #f9a91f;   /*yellow*/
+    --c-error:              #C00009;   /*red*/
+    --c-success:            #86bc32;   /*green*/
+
+    /*----------*/
+    /*typographi*/
+    /*----------*/
+    --f-primary:             Theboldfont, sans-serif;
+    --f-secondary-regualr:   SegoeUI-regular, sans-serif;
+    --f-secondary-semiBold:  SegoeUI-semibold, sans-serif;
+    --f-secondary-bold:      SegoeUI-bold, sans-serif;
+    --f-secondary-italic:    SegoeUI-italic, sans-serif;
+
+    /*---------*/
+    /*Font-size*/
+    /*---------*/
+    --f-size-xxs:             10px;
+    --f-size-xs:              12px;
+    --f-size-sm:              14px;
+    --f-size:                 16px;
+    --f-size-md-xxl:          18px;
+    --f-size-md-xl:           20px;
+    --f-size-md:              24px;
+    --f-size-lg:              28px;
+    --f-size-xlg:             34px;
+    --f-size-xlgx:            40px;
+    --f-size-xxlg:            48px;
+    --f-size-super:           60px;
+    --f-size-ultra:           74px;
+
+    /*icon-size*/
+    --f-iconsize:             20px;
+    --f-iconsize-md:          36px;
+    --f-iconsize-lg:          48px;
+    --f-iconsize-xlg:         60px;
+    --f-iconsize-super:       70px;
+
+    /*---------------------------*/
+    /*standar-margin&padding-size*/
+    /*---------------------------*/
+    /*----------Margin-----------*/
+    --m-size-xxs:             10px;
+    --m-size-xs:              12px;
+    --m-size-sm:              14px;
+    --m-size-md:              24px;
+    --m-size-lg:              28px;
+    --m-size-xlg:             34px;
+    --m-size-xlgx:            40px;
+    --m-size-xxlg:            48px;
+
+    
+    /*----------Padding----------*/
+    --p-size-xxs:             10px;
+    --p-size-xs:              12px;
+    --p-size-sm:              14px;
+    --p-size-md:              24px;
+    --p-size-lg:              28px;
+    --p-size-xlg:             34px;
+    --p-size-xlgx:            40px;
+    --p-size-xxlg:            48px;
+  }
