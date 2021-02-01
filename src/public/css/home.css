@@ -1,2 +1,40 @@
+/*-----------*/
+/*Home-styles*/
+/*-----------*/
 @import url(/static/css/root.css);
 
+/*------*/
+/*Header*/
+/*------*/
+.main-menu {
+    background-color: var(--c-primary);
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    position: relative;
+    z-index: 2;
+}
+.main-menu_tittle-inner {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.main-menu_inner-left,
+.main-menu_inner-right {
+    flex: 1 1 50%;
+    display: flex;
+}
+.main-menu_inner-right {
+    justify-content: flex-end;
+}
+.icon:before {
+    display: block;
+    content: ' ';
+    height: var(--f-iconsize);
+    width: 25px;
+    margin: 6.5px 7.5px;
+}
+.login-interface_inner {
+    display: none;
+}

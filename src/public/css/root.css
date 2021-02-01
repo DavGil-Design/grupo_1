@@ -10,13 +10,13 @@
   --c-secondary:            #003a45;
   --c-tertiary:             #ed3c10;
   --c-color1:               #c2dde4;
-  --c-color2:               #888;
-  --c-color2:               #666;
-  --c-color2:               #444;
-  --c-color2:               #222;
-  --c-color3:               transparent;
-  --c-color4:               #000;
-  --c-color6:               #fff;
+  --c-color3:               #888;
+  --c-color4:               #666;
+  --c-color5:               #444;
+  --c-color6:               rgba(255, 255, 255, 0.4);
+  --c-color7:               transparent;
+  --c-color8:               #000;
+  --c-color8:               #fff;
 
   /*alerts*/
   --c-info:                 var(--c-primary);
@@ -87,7 +87,9 @@
 }
 
 
-
+* {
+  box-sizing: border-box;
+}
 html {
   background-color: var(--c-color1);
   color: var(--c-text);
@@ -117,7 +119,23 @@ ul, li, a{
 /*-----*/
 /*icons*/
 /*-----*/
-/*.icon_menu*/
+.icon_menu:before {
+  background-image: url(/static/img/svg/menu.svg);
+  background-repeat: no-repeat;
+
+}
+.icon_search {
+  background-image: url(/static/img/svg/search.svg);
+  background-repeat: no-repeat;
+}
+.icon_user {
+  background-image: url(/static/img/svg/user.svg);
+  background-repeat: no-repeat;
+}
+.icon_shoping-bag {
+  background-image: url(/static/img/svg/shoping-bag.svg);
+  background-repeat: no-repeat;
+}
 /*.icon_search*/
 /*.icon_user*/
 /*.icon_shoping-bag*/
