@@ -51,8 +51,6 @@ a.user-buttons {
     margin: 3em;
 }
 
-
-
 /*------*/
 /*Mobile*/
 /*------*/
@@ -196,7 +194,7 @@ a.user-buttons {
         right: 3px;
         font-size: 24px;
     }
-    
+
     .input-email-login {
         margin: 10px;
         margin-left: 2.5em;
@@ -228,12 +226,18 @@ a.user-buttons {
     .button-login-social {
         margin: 10px;
         margin-left: 2.5em;
-        display: inline;
-        width: 70%;
+        display: inline-block;
+        width: 65%;
         padding: 5px;
         border: 1px solid var(--c-color8);
         border-radius: 10px;
         background: none;
+        font-size: 16px;
+    }
+
+    .fa-google, .fa-facebook{
+        margin-right: 2em;
+        margin-left: 2em;
     }
 }
 
@@ -325,11 +329,3 @@ a.user-buttons {
         background: none;
     }
 }
-
-
-
-
-
-
-
-

@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/register.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    login
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="content-left-desktop">
+                <img class="svg-popup-desktop" src="/static/img/svg/motherhood.svg" alt="Baby">
+            </div>
+            <div class="content-right-desktop">
+                <i class="close fas fa-times-circle"></i>
+                <h2>Registrarse</h2>
+                <p>o <a href="/login">Inicia Sesion</a></p>
+                <form action="#" method="post">
+
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="text" name="" id="" placeholder="Apellidos">
+
+                    <input class="input-email-login" type="email" name="e-mail" id="e-mail"
+                        placeholder="Correo electronico">
+                    <input class="input-email-login" type="email" name="e-mail" id="e-mail"
+                        placeholder="Validar Correo electronico">
+
+                        <input type="password" name="" id="" placeholder="Contraseña">
+                        <input type="password" name="" id="" placeholder="Validar Contraseña">
+
+                    
+                    <input class="input-check-login" type="checkbox" name="sesion-open" id="sesion-open"><label
+                        class="text-inform" for="sesion-open">Acepto <a href="http://">términos y condiciones</a></label>
+                    
+                </form>
+                <hr>
+                <a href="http://"><button class="button-login-social">Continuar con Google <i
+                            class="fab fa-google"></i></i></button></a>
+                <a href="http://"><button class="button-login-social">Continuar con Facebook <i
+                            class="fab fa-facebook"></i></button></a>
+                <a href="http://"><button class="button-login-social">Continuar con Correo <i
+                            class="fab fa-facebook"></i></button></a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
