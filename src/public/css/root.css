@@ -1,4 +1,5 @@
 /*General styles*/
+@import url(/static/fonts/fonts.css);
 
 :root {    
   /*------*/
@@ -13,7 +14,7 @@
   --c-color3:               #888;
   --c-color4:               #666;
   --c-color5:               #444;
-  --c-color6:               rgba(255, 255, 255, 0.4);
+  --c-color6:               rgba(0, 0, 0, 0.15);
   --c-color7:               transparent;
   --c-color8:               #000;
   --c-color8:               #fff;
@@ -61,29 +62,6 @@
   --f-iconsize-xlg:         60px;
   --f-iconsize-super:       70px;
 
-
-  /*---------------------------*/
-  /*standar-margin&padding-size*/
-  /*---------------------------*/
-  /*----------Margin-----------*/
-  --m-size-xxs:             10px;
-  --m-size-xs:              12px;
-  --m-size-sm:              14px;
-  --m-size-md:              24px;
-  --m-size-lg:              28px;
-  --m-size-xlg:             34px;
-  --m-size-xlgx:            40px;
-  --m-size-xxlg:            48px;
-    
-  /*----------Padding----------*/
-  --p-size-xxs:             10px;
-  --p-size-xs:              12px;
-  --p-size-sm:              14px;
-  --p-size-md:              24px;
-  --p-size-lg:              28px;
-  --p-size-xlg:             34px;
-  --p-size-xlgx:            40px;
-  --p-size-xxlg:            48px;
 }
 
 
@@ -102,6 +80,9 @@ body {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+main {
+    padding: 80px 20px;
 }
 h1 {
   font-family: var(--f-primary);
@@ -122,21 +103,17 @@ ul, li, a{
 .icon_menu:before {
   background-image: url(/static/img/svg/menu.svg);
   background-repeat: no-repeat;
-
 }
-.icon_search {
+.icon_search:before  {
   background-image: url(/static/img/svg/search.svg);
   background-repeat: no-repeat;
 }
-.icon_user {
+.icon_user:before  {
   background-image: url(/static/img/svg/user.svg);
   background-repeat: no-repeat;
 }
-.icon_shoping-bag {
+.icon_shoping-bag:before  {
   background-image: url(/static/img/svg/shoping-bag.svg);
   background-repeat: no-repeat;
 }
-/*.icon_search*/
-/*.icon_user*/
-/*.icon_shoping-bag*/
 /*.social-icons_1*/
