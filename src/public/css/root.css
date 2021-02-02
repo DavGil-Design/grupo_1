@@ -17,7 +17,7 @@
   --c-color6:               rgba(0, 0, 0, 0.15);
   --c-color7:               transparent;
   --c-color8:               #000;
-  --c-color8:               #fff;
+  --c-color9:               #fff;
 
   /*alerts*/
   --c-info:                 var(--c-primary);
@@ -86,6 +86,9 @@ main {
 }
 h1 {
   font-family: var(--f-primary);
+}
+h2{
+  font-family:var(--f-secondary-Bold);
 }
 ul, li, a{
   color: var(--c-text);
