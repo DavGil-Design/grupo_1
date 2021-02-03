@@ -1,14 +1,20 @@
 #grupo_1_babyfashion | Baby Fashion
 Proyecto integrador DH - Market place
 
+## TENER EN CUENTA PARA TESTEAR
+Aún no se han generado correctamente los links, por tal razón, después de la url ej "localhost:3070" colocar
+la ruta respectiva, las rutas que tenemos actualmente son:
 
+-/register
+-/login
+-/shop
+-/bag-shop
+-/product-detail
 
 ## Integrantes del equipo
 
 - José Andrés Bolaños Cervantes
 - David Santiago Gil Sabogal
-- Christian Pineda
-
 
 
 ## Descripción del sitio
@@ -50,10 +56,5 @@ Se procura abarcar la mayor cantidad de necesidades de los padres:
 - https://www.boboli.es/
 - https://www.tumodabebe.com/
 - https://laormiga.com/
-
-### CHRISTIAN
-- https://www.chicco.com.mx/
-- https://mx.patpat.com/
-
 
 La carpeta wireframe se encuentra en la carpeta "anexos" en esta carpeta encontrarás en formato PNG y PDF las vistas del proyecto(wireframes). Aunque existe un modelo funcional(prototipo) desarrollado en adobe xd, en este básta con abrir el link y ejecutar directamente en el navegador el wireframe del proyecto.   :wink:	:wink:
