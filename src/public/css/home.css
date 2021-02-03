@@ -169,3 +169,17 @@ footer {
 .footer-inner_section_sub-title {
     font-family: var(--f-secondary-bold);
 }
+
+/*-------*/
+/*@medias*/
+/*-------*/
+@media (min-width: 600px) {
+    .footer-inner_section {
+        flex: 1 1 33%;
+    }
+}
+@media (min-width: 768px) {
+    .footer-inner_section {
+        padding: 0 5%;
+    }
+}
