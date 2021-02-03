@@ -271,4 +271,5 @@ body {
     border: none;
     max-height: 26px;
     align-self: self-end;
+    cursor: pointer;
 }
