@@ -27,3 +27,7 @@ app.get("/shop",(req,res)=>{
 app.get("/bag-shop",(req,res)=>{
     res.sendFile(path.join(__dirname, "/src/views/productCart.html")
 )});
+
+app.get("/product-detail",(req,res)=>{
+    res.sendFile(path.join(__dirname, "/src/views/productDetail.html")
+)});

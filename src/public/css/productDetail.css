@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 35px;
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 2;
 }
@@ -170,4 +170,105 @@ footer {
         max-width: 300px;
         width: 25%;
     }
+}
+
+
+
+
+/*----------------*/
+/*DETALLE PRODUCTO*/
+/*----------------*/
+html,
+body {
+    overflow: hidden;
+}
+.login-interface {
+    display: none;
+}
+.prduct-detail {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.prduct-detail_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0;
+    height: 350px;
+}
+.prduct-detail_products_img {
+    width: auto;
+    margin-right: 50px;
+    height: 100%;
+}
+.prduct-detail_products_description {
+    font-family: var(--f-secondary-regualr);
+    color: var(--c-color9);
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prduct-detail_products_description::before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}.prduct-detail_products_description::after {
+    content: "\f057";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.prduct-detail_products_description span {
+    flex-basis: 100%;
+    height: 20px;
+}
+.prduct-detail_products_description_name {
+    font-family: var(--f-secondary-bold);
+    font-size: 20px;
+}
+.prduct-detail_products_description_price {
+    font-family: var(--f-secondary-semiBold);    
+    position: relative;
+    top: 20px;
+}
+.prduct-detail_products_description_price-number {
+    font-family: var(--f-secondary-semiBold);
+}
+.prduct-detail_products_description_quantity {
+    position: relative;
+    top: 20px;
+}
+.products_description_button {
+    padding: 5px 20px;
+    background-color: var(--c-color9);
+    border-radius: 10px;
+    border: none;
+    max-height: 26px;
+    align-self: self-end;
 }
