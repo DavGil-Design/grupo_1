@@ -81,7 +81,7 @@ li.icon_user {
 /*------*/
 
     /*-----------*/
-    /*Login popup*/
+    /*Cart popup*/
     /*-----------*/
     .popup {
         background: rgba(0, 0, 0, 0.6);
@@ -97,7 +97,7 @@ li.icon_user {
 
     .popup-content {
         height: auto;
-        width: 50%;
+        width: 70%;
         height: 100%;
         background: var(--c-color1);
         padding: 20px;
@@ -105,14 +105,73 @@ li.icon_user {
         position: relative;
     }
 
+    h2{
+        margin-top: 2em;
+    }
+    
+    .product-article{
+        display: flex;
 
+    }
+    .products{
+        display: flex;
+        width: 65%;
+        font-size: 12px;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    .total{
+        display: flex;
+        width: 100%;
+        font-size: 12px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
 
     .products_img{
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        display: inline;
+    }
+
+    .name-product{
+        margin-top: 1.5em;
+
+    }
+
+    .count-and-price{
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+
+    .button-pay{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: inline;
+        width: 65%;
+        height: 2em;
+        padding: 1px;
+        border: 1px solid var(--c-color8);
+        border-radius: 10px;
+        background: none;
+        font-size: 16px;
     }
 
 
+
+    @media (min-width: 430px) {
+        .products, .total{
+            font-size: 16px;
+        } 
+    }
+
+    @media (min-width: 600px) {
+        .products, .total{
+            font-size: 20px;
+        } 
+    }
 
 
 /*------*/
@@ -137,7 +196,7 @@ li.icon_user {
 
     .popup-content {
         height: auto;
-        width: 30%;
+        width: 45%;
         height: 100%;
         background: var(--c-color1);
         padding: 20px;
@@ -145,14 +204,13 @@ li.icon_user {
         position: relative;
     }
 
-
-
-
-
+    .products{
+        margin-left: 2em;
+    }
 
     .products_img{
-        width: 10%;
-        height: 10%;
+        width: 30%;
+        height: 30%;
     }
 
     
@@ -189,4 +247,7 @@ li.icon_user {
         position: relative;
     }
 
+    .products_img{
+        width: 30%;
+    }
 }
