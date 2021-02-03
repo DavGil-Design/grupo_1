@@ -11,26 +11,32 @@
 </head>
 
 <body>
-    
+
     <div class="popup" id="popup">
         <div class="popup-content">
             <div class="content-left-desktop">
                 <img class="svg-popup-desktop" src="/static/img/svg/undraw_baby_ja7a.svg" alt="Baby">
             </div>
             <div class="content-right-desktop">
-                <i class="close fas fa-times-circle"></i>
+                <a href="/"><i class="close fas fa-times-circle"></i></a>
                 <h2>Iniciar sesión</h2>
                 <p>o <a href="/register">Registrate</a></p>
                 <form action="#" method="post">
                     <input class="input-email-login" type="email" name="e-mail" id="e-mail"
                         placeholder="Correo electronico">
-                    <button class="next-button-pass"><i class="fas fa-angle-right"></i></button>
-                    <input class="input-check-login" type="checkbox" name="sesion-open" id="sesion-open"><label
-                        class="text-inform" for="sesion-open">Mantener sesión
-                        abierta</label>
+                    <input class="input-login" type="password" name="" id="" placeholder="Contraseña">
+
+                    <div class="content-check">
+                        <input class="input-check-login" type="checkbox" name="sesion-open" id="sesion-open"><label
+                            class="text-inform" for="sesion-open">Mantener sesión
+                            abierta</a></label>
+                    </div>
+
                     <p class="text-inform">¿Utilizas un dispositivo público o compartido? <br> Desmarque para
                         proteger
                         su cuenta.</p>
+
+                        <a href="http://"><button class="button-login">Iniciar sesion</button></a>
                 </form>
                 <hr>
                 <a href="http://"><button class="button-login-social">Iniciar sesión con Google <i

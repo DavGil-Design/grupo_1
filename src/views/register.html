@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    login
 
     <div class="popup" id="popup">
         <div class="popup-content">
@@ -19,30 +18,31 @@
                 <img class="svg-popup-desktop" src="/static/img/svg/motherhood.svg" alt="Baby">
             </div>
             <div class="content-right-desktop">
-                <i class="close fas fa-times-circle"></i>
+                <a href="/"><i class="close fas fa-times-circle"></i></a>
                 <h2>Registrarse</h2>
                 <p>o <a href="/login">Inicia Sesion</a></p>
                 <form action="#" method="post">
 
-                    <input type="text" name="" id="" placeholder="Nombre">
-                    <input type="text" name="" id="" placeholder="Apellidos">
+                    <input class="input-register" type="text" name="" id="" placeholder="Nombre">
+                    <input class="input-register" type="text" name="" id="" placeholder="Apellidos">
 
-                    <input class="input-email-login" type="email" name="e-mail" id="e-mail"
+                    <input class="input-email-register" type="email" name="e-mail" id="e-mail"
                         placeholder="Correo electronico">
-                    <input class="input-email-login" type="email" name="e-mail" id="e-mail"
+                    <input class="input-email-register" type="email" name="e-mail" id="e-mail"
                         placeholder="Validar Correo electronico">
 
-                        <input type="password" name="" id="" placeholder="Contraseña">
-                        <input type="password" name="" id="" placeholder="Validar Contraseña">
-
+                    <input class="input-register" type="password" name="" id="" placeholder="Contraseña">
+                    <input class="input-register" type="password" name="" id="" placeholder="Validar Contraseña">
                     
-                    <input class="input-check-login" type="checkbox" name="sesion-open" id="sesion-open"><label
+                    <div class="content-check">
+                    <input class="input-check-register" type="checkbox" name="sesion-open" id="sesion-open"><label
                         class="text-inform" for="sesion-open">Acepto <a href="http://">términos y condiciones</a></label>
-                    
+                    </div>
+                    <a href="http://"><button class="button-login-social">Crear Cuenta</button></a>
                 </form>
                 <hr>
                 <a href="http://"><button class="button-login-social">Continuar con Google <i
-                            class="fab fa-google"></i></i></button></a>
+                            class="fab fa-google"></i></button></a>
                 <a href="http://"><button class="button-login-social">Continuar con Facebook <i
                             class="fab fa-facebook"></i></button></a>
                 <a href="http://"><button class="button-login-social">Continuar con Correo <i

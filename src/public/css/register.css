@@ -74,9 +74,9 @@ a.user-buttons {
 
     .popup-content {
         height: auto;
-        width: 80%;
+        width: 90%;
         background: var(--c-color1);
-        padding: 20px;
+        padding: 10px;
         border-radius: 5px;
         position: relative;
     }
@@ -98,7 +98,7 @@ a.user-buttons {
         width: 100%;
     }
 
-    .input-email-login {
+    .input-email-register, .input-register  {
         margin: 10px;
         margin-left: 1.5em;
         display: inline;
@@ -110,20 +110,17 @@ a.user-buttons {
 
     }
 
-    .next-button-pass {
-        border-radius: 50%;
-        border: none;
-        height: 20px;
-        width: 20px;
-        align-items: center;
-        background-color: var(--c-color8);
-        color: var(--c-color9);
-    }
 
-    .input-check-login {
+    .input-check-register{
         text-align: start;
         margin-left: 6em;
         align-items: start;
+    }
+
+    .content-check{
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 2em;
     }
 
 
@@ -195,7 +192,7 @@ a.user-buttons {
         font-size: 24px;
     }
 
-    .input-email-login {
+    .input-email-register, .input-register {
         margin: 10px;
         margin-left: 2.5em;
         display: inline;
@@ -282,7 +279,7 @@ a.user-buttons {
         width: 400px;
     }
 
-    .input-email-login {
+    .input-email-register, .input-register  {
 
         margin: 10px;
         margin-left: 2.5em;
