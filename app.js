@@ -23,3 +23,7 @@ app.get("/login",(req,res)=>{
 app.get("/shop",(req,res)=>{
     res.sendFile(path.join(__dirname, "/src/views/shop.html")
 )});
+
+app.get("/bag-shop",(req,res)=>{
+    res.sendFile(path.join(__dirname, "/src/views/productCart.html")
+)});
