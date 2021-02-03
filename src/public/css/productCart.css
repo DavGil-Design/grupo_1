@@ -1,0 +1,192 @@
+/*-----------*/
+/*Home-styles*/
+/*-----------*/
+@import url(/static/css/root.css);
+
+/*------*/
+/*Header*/
+/*------*/
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.main-menu_tittle-inner {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.main-menu_inner-left,
+.main-menu_inner-right {
+    flex: 1 1 50%;
+    display: flex;
+    background-image: url(/static/img/svg/nav-bar.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 100%;
+}
+.main-menu_inner-left {
+    background-position: top left;
+}
+.main-menu_inner-right {
+    background-position: top right;
+    justify-content: flex-end;
+}
+li.icon {
+    padding: 0 10px;
+    position: relative;
+    width: 35px;
+}
+li.icon:hover {
+    background-color: var(--c-color6);
+}
+.icon:before {
+    display: block;
+    content: ' ';
+    height: var(--f-iconsize);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-13%, -55%);
+    transform: translate(-13%, -55%);
+}
+li.icon_user {
+    position: relative;
+}
+.login-interface {
+    display:none;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+/* .login-interface_inner {
+    align-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 5px 10px 6px;
+    height: 60px;
+    width: 95px;
+} */
+/*------*/
+/*Mobile*/
+/*------*/
+
+    /*-----------*/
+    /*Login popup*/
+    /*-----------*/
+    .popup {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+        text-align: center;
+    }
+
+    .popup-content {
+        height: auto;
+        width: 50%;
+        height: 100%;
+        background: var(--c-color1);
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+
+
+    .products_img{
+        width: 40%;
+        height: 40%;
+    }
+
+
+
+
+/*------*/
+/*Tablet*/
+/*------*/
+@media (min-width: 768px) {
+
+    /*-----------*/
+    /*Login popup*/
+    /*-----------*/
+    .popup {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+        text-align: center;
+    }
+
+    .popup-content {
+        height: auto;
+        width: 30%;
+        height: 100%;
+        background: var(--c-color1);
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+
+
+
+
+
+    .products_img{
+        width: 10%;
+        height: 10%;
+    }
+
+    
+}
+
+
+/*-------*/
+/*Desktop*/
+/*-------*/
+@media (min-width: 1280px) {
+
+    /*-----------*/
+    /*Login popup*/
+    /*-----------*/
+    .popup {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+        text-align: center;
+    }
+
+    .popup-content {
+        height: auto;
+        width: 30%;
+        height: 100%;
+        background: var(--c-color1);
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+}
