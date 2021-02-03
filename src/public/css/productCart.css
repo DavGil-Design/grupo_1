@@ -84,7 +84,7 @@ li.icon_user {
     /*Cart popup*/
     /*-----------*/
     .popup {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.2);
         width: 100%;
         height: 100%;
         position: absolute;
@@ -106,9 +106,9 @@ li.icon_user {
     }
 
     .close {
-        position: absolute;
-        top: 2.5em;
-        right: 7px;
+        position: fixed;
+        top: 3em;
+        right: 10px;
         cursor: pointer;
     }
 
