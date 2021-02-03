@@ -58,3 +58,8 @@ Se procura abarcar la mayor cantidad de necesidades de los padres:
 - https://laormiga.com/
 
 La carpeta wireframe se encuentra en la carpeta "anexos" en esta carpeta encontrarás en formato PNG y PDF las vistas del proyecto(wireframes). Aunque existe un modelo funcional(prototipo) desarrollado en adobe xd, en este básta con abrir el link y ejecutar directamente en el navegador el wireframe del proyecto.   :wink:	:wink:
+
+
+## Tablero en Trello
+
+- https://trello.com/b/BjctvMDp/proyecto-integrador
