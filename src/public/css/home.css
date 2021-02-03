@@ -83,9 +83,12 @@ li.icon_user {
 /*Carrousel*/
 .carousel {
     padding: 0;
+    justify-content: center;
+    display: flex;
 }
 .carousel img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 /*Categories-Trend-Suggested*/
@@ -174,11 +177,26 @@ footer {
 /*@medias*/
 /*-------*/
 @media (min-width: 600px) {
+    .categories_inner_category {
+        flex: 1 1 0%;
+    }
+    .products {
+        padding-right: 20px;
+    }
     .footer-inner_section {
         flex: 1 1 33%;
     }
 }
 @media (min-width: 768px) {
+    .categories_inner {
+        justify-content: center;
+    }
+    .categories_inner_category {
+        max-width: 120px;
+    }
+    .products {
+        padding-right: 30px;
+    }
     .footer-inner_section {
         padding: 0 5%;
     }
