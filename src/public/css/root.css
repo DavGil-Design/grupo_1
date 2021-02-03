@@ -82,13 +82,22 @@ body {
   text-decoration: none;
 }
 main {
-    padding: 80px 20px;
+  padding: 70px 0 40px;
+}
+section > section {
+  padding: 10px;
+}
+h1,
+h2 {
+  margin: 0;
 }
 h1 {
   font-family: var(--f-primary);
+  font-size: var(--f-size-md);
 }
-h2{
-  font-family:var(--f-secondary-Bold);
+h2 {
+  font-family:var(--f-secondary-semiBold);
+  font-size: var(--f-size-md-xl);
 }
 ul, li, a{
   color: var(--c-text);
