@@ -272,6 +272,7 @@ a.user-buttons {
     .content-left-desktop{
         display: inline-block;
         width: 50%;
+        padding-top: 10%;
     }
 
     .svg-popup-desktop{
