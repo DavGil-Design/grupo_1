@@ -51,6 +51,7 @@ a.user-buttons {
     margin: 3em;
 }
 
+
 /*------*/
 /*Mobile*/
 /*------*/
@@ -92,7 +93,14 @@ a.user-buttons {
         display: none;
     }
 
+    .content-right-desktop{
+        height: 70%;
+    }
 
+    .content-redirection{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
 
     form {
         width: 100%;
@@ -119,8 +127,8 @@ a.user-buttons {
 
     .content-check{
         display: flex;
-        margin-top: 1em;
-        margin-bottom: 2em;
+        margin-top: 0em;
+        margin-bottom: 1em;
     }
 
 
@@ -143,8 +151,7 @@ a.user-buttons {
     }
 
     .button-login-social {
-        margin: 1em;
-        margin: 1.5em;
+        margin: .5em;
         display: inline;
         width: 80%;
         height: 3em;
